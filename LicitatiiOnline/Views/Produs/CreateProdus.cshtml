@@ -1,0 +1,60 @@
+﻿@model LicitatiiOnline.Models.ProdusModel
+
+@{
+    ViewData["Title"] = "CreateProdus";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>ProdusModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nume_Produs" class="control-label"></label>
+                <input asp-for="Nume_Produs" class="form-control" />
+                <span asp-validation-for="Nume_Produs" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Descriere" class="control-label"></label>
+                <input asp-for="Descriere" class="form-control" />
+                <span asp-validation-for="Descriere" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Categorie" class="control-label"></label>
+                <input asp-for="Categorie" class="form-control" />
+                <span asp-validation-for="Categorie" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pret_Pornire" class="control-label"></label>
+                <input asp-for="Pret_Pornire" class="form-control" />
+                <span asp-validation-for="Pret_Pornire" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Stare" class="control-label"></label>
+                <input asp-for="Stare" class="form-control" />
+                <span asp-validation-for="Stare" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IncarcareImagine" class="control-label"></label>
+                <input asp-for="IncarcareImagine" type="file" class="form-control" />
+                <span asp-validation-for="IncarcareImagine" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

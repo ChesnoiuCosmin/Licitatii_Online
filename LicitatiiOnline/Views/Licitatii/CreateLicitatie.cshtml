@@ -1,0 +1,59 @@
+﻿@model LicitatiiOnline.Models.LicitatiiModel
+
+@{
+    ViewData["Title"] = "CreateLicitatie";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>LicitatiiModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ID_Produs" class="control-label"></label>
+                <input asp-for="ID_Produs" class="form-control" />
+                <span asp-validation-for="ID_Produs" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nume_Cumparator" class="control-label"></label>
+                <input asp-for="Nume_Cumparator" class="form-control" />
+                <span asp-validation-for="Nume_Cumparator" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pret_Actual" class="control-label"></label>
+                <input asp-for="Pret_Actual" class="form-control" />
+                <span asp-validation-for="Pret_Actual" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Data_Licitatie" class="control-label"></label>
+                <input asp-for="Data_Licitatie" class="form-control" />
+                <span asp-validation-for="Data_Licitatie" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Stare" class="control-label"></label>
+                <input asp-for="Stare" class="form-control" />
+                <span asp-validation-for="Stare" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Interval_Preturi" class="control-label"></label>
+                <input asp-for="Interval_Preturi" class="form-control" />
+                <span asp-validation-for="Interval_Preturi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

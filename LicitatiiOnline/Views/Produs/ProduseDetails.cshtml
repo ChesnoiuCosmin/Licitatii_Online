@@ -1,0 +1,114 @@
+﻿@model LicitatiiOnline.Models.ProdusModel
+
+@{
+    ViewData["Title"] = "ProduseDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>ProduseDetails</h1>
+
+<div>
+    <h4>ProdusModel</h4>
+    <hr />
+    <dl class="row">
+        <dd class = "col-sm-10" hidden>
+            @Html.HiddenFor(model => model.ID_Produs)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nume_Produs)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nume_Produs)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Descriere)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Descriere)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Categorie)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Categorie)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Pret_Pornire)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Pret_Pornire)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Data_Incheiere_Licitatie)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Data_Incheiere_Licitatie)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Utilizator_Ofertant_Curent)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Utilizator_Ofertant_Curent)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Stare)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Stare)
+        </dd>
+        <dt class="col-sm-2">
+            Imagine
+        </dt>
+        <dd class="col-sm-10">
+            <img src="@Model.CaleImagine" style="max-width: 200px; max-height: 200px;" />
+        </dd>
+        <dt class="col-sm-2">
+            Timp Rămas în Licitatie
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.Data_Incheiere_Licitatie != null)
+            {
+                var millisecunde = Model.Data_Incheiere_Licitatie.Value.Subtract(new DateTime(1970, 1, 1)).TotalMilliseconds;
+                <p>Timp rămas: <span class="countdown" data-endtime="@millisecunde"></span></p>
+            }
+            else
+            {
+                <p>Licitația nu este activă.</p>
+            }
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID_Produs }) |
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    <script>
+        function updateCountdown() {
+            const countdownElements = document.querySelectorAll('.countdown');
+
+            countdownElements.forEach(element => {
+                const timpFinal = parseInt(element.getAttribute('data-endtime'));
+                const timpCurrent = new Date().getTime();
+                const diferenta = timpFinal - timpCurrent;
+
+                if (diferenta > 0) {
+                    const totalSecunde = Math.floor(diferenta / 1000);
+
+                    const zile = Math.floor(totalSecunde / (60 * 60 * 24));
+                    const ore = Math.floor((totalSecunde % (60 * 60 * 24)) / (60 * 60));
+                    const minute = Math.floor((totalSecunde % (60 * 60)) / 60);
+                    const secunde = totalSecunde % 60;
+
+                    element.textContent = `${zile} zile ${ore} ore ${minute} minute ${secunde} secunde`;
+                } else {
+                    element.textContent = 'Licitatia s-a incheiat';
+                }
+            });
+        }
+
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+    </script>
+}

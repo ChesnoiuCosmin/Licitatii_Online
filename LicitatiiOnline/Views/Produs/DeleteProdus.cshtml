@@ -1,0 +1,73 @@
+﻿@model LicitatiiOnline.Models.ProdusModel
+
+@{
+    ViewData["Title"] = "DeleteProdus";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>DeleteProdus</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>ProdusModel</h4>
+    <hr />
+    <dl class="row">
+
+        <dd class = "col-sm-10" hidden>
+            @Html.DisplayFor(model => model.ID_Produs)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nume_Produs)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nume_Produs)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Descriere)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Descriere)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Categorie)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Categorie)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Pret_Pornire)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Pret_Pornire)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Data_Incheiere_Licitatie)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Data_Incheiere_Licitatie)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Utilizator_Ofertant_Curent)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Utilizator_Ofertant_Curent)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Stare)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Stare)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CaleImagine)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CaleImagine)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

@@ -1,0 +1,329 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LicitatiiOnline.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LicitatiiOnline.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\Images\\0b0c54c1-43eb-401d-9090-a2e6d8525797_paineVeche.jpg",
+      "PackagePath": "staticwebassets\\Images\\0b0c54c1-43eb-401d-9090-a2e6d8525797_paineVeche.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\Images\\18fe386e-670b-4c3f-9771-ae57a270162e_katana.jpeg",
+      "PackagePath": "staticwebassets\\Images\\18fe386e-670b-4c3f-9771-ae57a270162e_katana.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\Images\\2287d935-99c9-45a9-8d7e-57f2ff35f032_craniuRinocer.jpg",
+      "PackagePath": "staticwebassets\\Images\\2287d935-99c9-45a9-8d7e-57f2ff35f032_craniuRinocer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\Images\\2d6b1094-9e91-4638-a133-8170281972c0_katana.jpeg",
+      "PackagePath": "staticwebassets\\Images\\2d6b1094-9e91-4638-a133-8170281972c0_katana.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\Images\\580b2f55-4314-4f5e-8849-a841eb880bca_katana.jpeg",
+      "PackagePath": "staticwebassets\\Images\\580b2f55-4314-4f5e-8849-a841eb880bca_katana.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\Images\\6a54a812-7919-4be6-aed1-546a8296dbd9_341772842_227855796517288_7200980482282297594_n.jpg",
+      "PackagePath": "staticwebassets\\Images\\6a54a812-7919-4be6-aed1-546a8296dbd9_341772842_227855796517288_7200980482282297594_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\Images\\784c307f-9f25-4d62-bd51-d4aa38f6765d_katana.jpeg",
+      "PackagePath": "staticwebassets\\Images\\784c307f-9f25-4d62-bd51-d4aa38f6765d_katana.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\Images\\87426272-de20-4daa-bcb9-7bb9a957941f_craniuRinocer.jpg",
+      "PackagePath": "staticwebassets\\Images\\87426272-de20-4daa-bcb9-7bb9a957941f_craniuRinocer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\Images\\8970773e-4cbf-4a22-aabe-bbadf93f25f1_paineVeche.jpg",
+      "PackagePath": "staticwebassets\\Images\\8970773e-4cbf-4a22-aabe-bbadf93f25f1_paineVeche.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\Images\\CraniuRazboinic.jpg",
+      "PackagePath": "staticwebassets\\Images\\CraniuRazboinic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\Images\\d333b72b-e3d0-41e9-a4af-3f4c6a2be2c5_katana.jpeg",
+      "PackagePath": "staticwebassets\\Images\\d333b72b-e3d0-41e9-a4af-3f4c6a2be2c5_katana.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\Images\\d3d003fa-873f-42d1-b541-bede4619f210_katana.jpeg",
+      "PackagePath": "staticwebassets\\Images\\d3d003fa-873f-42d1-b541-bede4619f210_katana.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\Images\\e91b47b4-dd9d-4516-af9b-1762cbd31a4b_katana.jpeg",
+      "PackagePath": "staticwebassets\\Images\\e91b47b4-dd9d-4516-af9b-1762cbd31a4b_katana.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\Images\\ecdd9373-8791-447c-8304-7584f99bedd3_paineVeche.jpg",
+      "PackagePath": "staticwebassets\\Images\\ecdd9373-8791-447c-8304-7584f99bedd3_paineVeche.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\Images\\f522f8d3-16e0-415d-8979-98d512df518b_katana.jpeg",
+      "PackagePath": "staticwebassets\\Images\\f522f8d3-16e0-415d-8979-98d512df518b_katana.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\Images\\vaza_antica.jpg",
+      "PackagePath": "staticwebassets\\Images\\vaza_antica.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cosmi\\source\\repos\\LicitatiiOnline\\LicitatiiOnline\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.LicitatiiOnline.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.LicitatiiOnline.props",
+      "PackagePath": "build\\LicitatiiOnline.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.LicitatiiOnline.props",
+      "PackagePath": "buildMultiTargeting\\LicitatiiOnline.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.LicitatiiOnline.props",
+      "PackagePath": "buildTransitive\\LicitatiiOnline.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

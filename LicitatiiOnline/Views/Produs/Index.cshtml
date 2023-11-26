@@ -1,0 +1,117 @@
+﻿@model X.PagedList.IPagedList<LicitatiiOnline.Models.ProdusModel>
+@using X.PagedList.Mvc.Core
+@using X.PagedList.Web.Common;
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h1>Index</h1>
+
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<div class="product-container">
+    @foreach (var item in Model)
+    {
+        <div class="product-item">
+            <a href="@Url.Action("Details", "Produs", new { id = item.ID_Produs })">
+                <img src="@item.CaleImagine" alt="Imagine Produs" />
+                <br />
+                @Html.DisplayFor(modelItem => item.Nume_Produs)
+            </a>
+            <div>
+                @if (item.Data_Incheiere_Licitatie != null)
+                {
+                    var millisecunde = item.Data_Incheiere_Licitatie.Value.Subtract(new DateTime(1970, 1, 1)).TotalMilliseconds;
+                    <p>Timp ramas: <span class="countdown" data-endtime="@millisecunde"></span></p>
+                    @if (item.Data_Incheiere_Licitatie <= DateTime.Now)
+                    {
+                        <p>Pret final licitatie: @item.Pret_Actual_Licitatie</p>
+                        <p>E-mail castigator: @item.Utilizator_Ofertant_Curent</p>
+                    }
+                    else
+                    {
+                        <p>Pret actual licitatie: @item.Pret_Actual_Licitatie</p>
+                        <form asp-action="AdaugaOferta" method="post">
+                            <input type="hidden" name="idProdus" value="@item.ID_Produs" />
+
+                            <label for="sumaOferta">Suma ofertei:</label>
+                            <input type="number" step="1" name="oferta" id="oferta" min="@item.Pret_Actual_Licitatie" required />
+
+                            <button type="submit">Plaseaza ofertă</button>
+                        </form>
+                    }
+                   
+                }
+                else
+                {
+                    <p>Pret de pornire: @item.Pret_Pornire</p>
+                }
+
+            </div>
+            <div>
+                @if (item.Data_Incheiere_Licitatie == null)
+                {
+                    <form asp-action="IncepeLicitatie" method="post">
+                        <input type="hidden" name="idProdus" value="@item.ID_Produs" />
+
+                        <label for="dataIncheiere">Data de încheiere a licitației:</label>
+                        <input type="datetime-local" name="dataIncheiere" required />
+
+                        <button type="submit">Incepe licitatia</button>
+                    </form>
+                }
+            </div>
+
+            <div class="product-actions">
+                @if (User.IsInRole("Admin"))
+                {
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ID_Produs }, new { @class = "btn btn-primary btn-sm" })
+                    @if (item.Data_Incheiere_Licitatie > DateTime.Now)
+                        {
+                            @Html.ActionLink("Delete", "Delete", new { id = item.ID_Produs }, new { @class = "btn btn-danger btn-sm" })
+                        }
+                }
+            </div>
+        </div>
+    }
+</div>
+
+<div class="pager">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), new PagedListRenderOptions { Display = PagedListDisplayMode.IfNeeded })
+</div>
+
+<script>
+    function updateCountdown() {
+        const countdownElements = document.querySelectorAll('.countdown');
+
+        countdownElements.forEach(element => {
+            const timpFinal = parseInt(element.getAttribute('data-endtime'));
+            const timpCurrent = new Date().getTime();
+            const diferenta = timpFinal - timpCurrent;
+
+            if (diferenta > 0) {
+                const totalSecunde = Math.floor(diferenta / 1000); // Convertire din milisecunde in secunde
+
+                const zile = Math.floor(totalSecunde / (60 * 60 * 24));
+                const ore = Math.floor((totalSecunde % (60 * 60 * 24)) / (60 * 60));
+                const minute = Math.floor((totalSecunde % (60 * 60)) / 60);
+                const secunde = totalSecunde % 60;
+
+                element.textContent = `${zile} zile ${ore} ore ${minute} minute ${secunde} secunde`;
+            } else {
+                element.textContent = 'Licitatia s-a incheiat';
+            }
+        });
+    }
+
+    setInterval(updateCountdown, 1000);
+
+    updateCountdown();
+
+</script>
